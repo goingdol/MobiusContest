@@ -1,0 +1,9 @@
+<launch>
+	<include file="$(find xtark_line_follower)/launch/xtark_line_follower.launch"/>
+	<include file="$(find xtark_opencv)/launch/xtark_people_detect.launch"/>
+
+        <!-- Mobius node -->
+	<!-- node pkg="onem2m" name="mobius" type="app.js"/ -->
+</launch>
+
+

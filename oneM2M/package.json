@@ -1,0 +1,23 @@
+{
+  "lockfileVersion": 1,
+  "name": "onem2m",
+  "version": "1.0.0",
+  "main": "device.js",
+  "scripts": {
+    "app": "node scripts/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ros"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "find-free-port": "^2.0.0",
+    "hashmap": "^2.4.0",
+    "request": "^2.88.2"
+  }
+}
